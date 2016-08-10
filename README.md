@@ -26,6 +26,8 @@ to some of the Boost libraries.
 
 ## Building...
 
+[notice that we obviously need boost]
+
 ## Running...
 
 
