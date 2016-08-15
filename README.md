@@ -26,7 +26,19 @@ to some of the Boost libraries.
 
 ## Building...
 
-[notice that we obviously need boost]
+[Say it needs boost -- say where it is expected to be.]
+
+[Say one will need to build Boost.Test as a dynamic library. Don't
+forget the `BOOST_TEST_DYN_LINK` flag (is this needed?) -- I failed to
+build Boost.Test in Windows... probably won't use it]
+
+Probably, to install boost (compiled stuff are needed for testing),
+the best to do is:
+[was the only way it seemed to have worked for me]
+
+./bootstrap.sh
+./b2 --with-test install
+
 
 ## Running...
 
