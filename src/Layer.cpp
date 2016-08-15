@@ -11,3 +11,8 @@ Layer::~Layer()
 }
 
 
+// void Layer::calculateGradients() {}
+// void Layer::applyGradients() {}
+// void Layer::feedForward() {}
+
+
