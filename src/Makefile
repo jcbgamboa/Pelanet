@@ -1,14 +1,14 @@
 CXXFLAGS=-I../boost/
 
-TARGET=net
+TARGET=pelanet.a
 OBJS=Layer.o
 
 $(TARGET): $(OBJS)
-	g++ -o $@ main.cpp $(OBJS)
+	ar rcs -o $@ $^
 
 .PHONY: clean
 clean:
-	rm *.o 
+	rm *.o  pelanet.a
 
 
 .PHONY: tests
